@@ -82,3 +82,49 @@ To https://github.com/LadelloComunista/Atividade_presencialUC7.git
 
 Aluno@ESN914D1233551 MINGW32 ~/Desktop/Atividade_presencialUC7 (main)
 $
+
+
+Colaborador 2
+Daniel
+
+Aluno@ESN914D1233548 MINGW32 /e/Vscode/Atividade_presencialUC7 (main)
+$ git add .
+
+Aluno@ESN914D1233548 MINGW32 /e/Vscode/Atividade_presencialUC7 (main)
+$ git push origin main
+fatal: O código de status de resposta não indica êxito: 401 (Unauthorized).
+remote: Support for password authentication was removed on August 13, 2021. Please use a personal access token instead.
+remote: Please see https://github.blog/2020-12-15-token-authentication-requirements-for-git-operations/ for more information.
+fatal: Authentication failed for 'https://github.com/LadelloComunista/Atividade_presencialUC7.git/'
+
+Aluno@ESN914D1233548 MINGW32 /e/Vscode/Atividade_presencialUC7 (main)
+$ git push origin main
+Everything up-to-date
+
+Aluno@ESN914D1233548 MINGW32 /e/Vscode/Atividade_presencialUC7 (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   contatos.html
+
+
+Aluno@ESN914D1233548 MINGW32 /e/Vscode/Atividade_presencialUC7 (main)
+$ git commit -m "adicionando contatos"
+[main 0ed8898] adicionando contatos
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 contatos.html
+
+Aluno@ESN914D1233548 MINGW32 /e/Vscode/Atividade_presencialUC7 (main)
+$ git push origin main
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 6 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (2/2), 295 bytes | 295.00 KiB/s, done.
+Total 2 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/LadelloComunista/Atividade_presencialUC7.git
+   b155d27..0ed8898  main -> main
+
